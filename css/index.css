@@ -1,0 +1,234 @@
+body{height:100%;background:#16a085;overflow:hidden;font-size:12px;font-family:'\5FAE\8F6F\96C5\9ED1';}
+.title{
+	text-align:center;
+	color:#16a085;
+}
+#particles{
+	width:100%;
+}
+#form p{
+	width:80%;
+	height:2.5em;
+	margin:auto;
+	margin-bottom:2em;
+}
+.user,.pass{
+	width:100%;
+	height:100%;
+	padding-left:8px;
+	margin:auto;
+	overflow:hidden;
+	background:#FFFFFF;
+	color:#127E6A;
+	border:1px solid #79CBBC;
+	outline:none;
+}
+.submit{
+	height:24px;
+	width:80px;
+	color:#FFFFFF;
+	background:#16a085;
+	margin:auto;
+	text-align:center;
+	vertical-align:middle;
+	padding-top:6px;
+	font-size:.9em;
+	margin-bottom:2em;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	cursor:pointer;
+}
+#form{
+	width:90%;
+	max-width:400px;
+	background:#FFFFFF;
+	position:absolute;
+	top:50%;
+	left:50%;
+	box-shadow:5px 10px 15px #036452;
+	filter:alpha(opacity=80); -moz-opacity:0.8; -khtml-opacity: 0.8; opacity: 0.8; 
+}
+/* 主页内容样式 */
+.cbody{
+	margin:0px;
+}
+
+/* 顶栏 */
+.top{
+	height:60px;
+	width:100%;
+	background:#F3F3F4;
+}
+/* 左边栏 */
+.sidebar {
+  width: 220px;
+  height:100%;
+  float:left;
+  font-size:1em;
+  background: #2F4050;
+}
+/* .sidebar-nav {
+  //border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  //background-image: -webkit-linear-gradient(left, color-stop(#333333 10px), color-stop(#222222 10px));
+  //background-image: linear-gradient(to right, #333333 10px, #222222 10px);
+  //background-repeat: repeat-x;
+  //filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff222222', GradientType=1);
+} */
+
+.sidebar-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sidebar-nav a, .sidebar-nav a:hover, .sidebar-nav a:focus, .sidebar-nav a:active {
+  outline: none;
+  text-decoration:none;
+}
+.sidebar-nav ul li, .sidebar-nav ul a {
+  display: block;
+  text-decoration:none;
+}
+.sidebar-nav ul a {
+  padding: 10px 20px;
+  color: #aaa;
+  text-decoration:none;
+ /*  //border-top: 1px solid rgba(0, 0, 0, 0.3);
+  //box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05) inset; */
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.sidebar-nav ul a:hover, .sidebar-nav ul a:focus, .sidebar-nav ul a:active {
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar-nav ul ul a {
+  padding: 10px 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  text-decoration:none;
+}
+.sidebar-nav ul ul a:hover, .sidebar-nav ul ul a:focus, .sidebar-nav ul ul a:active {
+	/* 点开里面的a:hover样式 */
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration:none;
+}
+.sidebar-nav-item {
+  padding-left: 15px;
+}
+.sidebar-nav-item-icon {
+  padding-right: 15px;
+}
+/* 用户样式 */
+.user-name{
+	width:150px;
+	word-spacing:nowrap;
+	overflow:hidden;
+	text-overflow::ellipsis;
+	margin-top:5px;
+	margin-bottom:0px;
+}
+/* 内容样式 */
+.b_content{
+	width:auto;
+	height:100%;
+	float:left;
+	background:#FFFFFF;
+	padding:45px 0px 30px 0px;
+}
+/* 控制选项卡样式 */
+.control_tag{
+	height:44px;
+	width:100%;
+	position:absolute;
+	top:60px;
+	background:#FAFAFA;
+	border-top:1px solid #E7EAEC;
+	border-bottom:1px solid #E7EAEC;
+}
+/* 向左移动 */
+
+.to_left,.to_right{
+	height:100%;
+	width:40px;
+	padding-top:1.2em;
+	padding-left:1em;
+	border:none;
+	color:#999999;
+	background:#FFFFFF;
+}
+.to_right{
+	border-left:1px solid #E7EAEC;
+}
+.to_left{
+	border-left:1px solid #E7EAEC;
+}
+.content_info{
+	height:100%;
+	width:100%;
+}
+.footer{
+	height:29px;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	background:#FFFFFF;
+	border-top:1px solid #E7EAEC;
+}
+/* 选项卡滚动条 */
+.b_tags_content{
+	height:100%;
+	width:500px;
+	overflow:hidden;
+}
+.tag-warpper{
+	width:10000px;
+	height:100%;
+}
+.public_tag,.b_logout{
+	height:100%;
+	width:auto;
+	display:inline-block;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:15px;
+	border:none;
+	border-left:1px solid #E7EAEC;
+	color:#999999;
+	background:#FAFAFA;
+	overflow:hidden;
+}
+.lmargin5{
+	margin-left:5px;
+}
+.rmargin5{
+	margin-right:0.5em;
+}
+.b_active{
+	background:#2F4050;
+}
+.dropdown{
+	border-left:1px solid #E7EAEC;
+	z-index:500;
+}
+.btn{
+	width:100px;
+	height:41px;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	border:none;
+	color:#999999;
+	background:#FFFFFF;
+}
+.right_bolck_tag{
+	width:420px;
+	height:100%;
+	position:absolute;
+	top:0px;
+	right:10px;
+}
+.to-left{
+	float:left;
+}
+.to-right{
+	float:right;
+}
